@@ -3,7 +3,6 @@ const allCategories = document.getElementById("allCategories");
 const mealResults = document.getElementById("mealResults");
 const searchBtn = document.getElementById("searchBtn");
 const searchInput = document.getElementById("searchInput");
-
 const heroSection = document.querySelector(".hero-section");
 const categorySection = document.getElementById("categorySection");
 
@@ -206,3 +205,4 @@ const meas = meal[`strMeasure${i}`];
 
   mealResults.scrollIntoView({ behavior: "smooth" });
 }
+
